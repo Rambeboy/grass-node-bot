@@ -124,13 +124,11 @@ if any error happen or bot not runnnig check on log file
 cat log/app.log
 ```
 
-LFG
-
 ## CONTRIBUTE
 
 Feel free to fork and contribute adding more feature thanks.
 
-##LICENSE
+## LICENSE
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
