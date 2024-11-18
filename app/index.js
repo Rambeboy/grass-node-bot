@@ -1,1 +1,73 @@
-function _0x1e56(){const _0x55aec1=['27AqyqPK','createTable','Please\x20Set\x20Up\x20your\x20account\x20first\x20on\x20accounts.js\x20file','message','Please\x20Set\x20Up\x20your\x20User\x20id\x20first\x20on\x20accounts.js\x20file','Author\x20:\x20Nofan\x20Rambe','5QVsMbb','1936746PcbFeK','BOT\x20STOPPED','360776pSujbn','Error\x20During\x20executing\x20bot','password','217170liQXtG','94756rrrnjA','log','push','6HCkidE','getPoint','getUser','info','length','Application\x20Started','getActiveNetwork','This\x20bot\x20require\x20you\x20to\x20use\x20proxy,\x20so\x20add\x20at\x20least\x201\x20proxy','initDevice','ipChecker','all',',\x20Retry\x20again\x20after\x2010\x20Second','clear','forEach','250128rEeTzB','delay','1854606pVLuhd','connectWebSocket','262876lNMDEV','stringify','Error\x20:\x20','77PeRivt','error'];_0x1e56=function(){return _0x55aec1;};return _0x1e56();}(function(_0x17d21f,_0x5a01b6){const _0x4c14a4=_0x54e9,_0x4e5813=_0x17d21f();while(!![]){try{const _0x50d085=parseInt(_0x4c14a4(0xc5))/0x1+-parseInt(_0x4c14a4(0xb3))/0x2*(-parseInt(_0x4c14a4(0xc1))/0x3)+-parseInt(_0x4c14a4(0xb0))/0x4*(parseInt(_0x4c14a4(0xd0))/0x5)+-parseInt(_0x4c14a4(0xc3))/0x6+parseInt(_0x4c14a4(0xd1))/0x7+-parseInt(_0x4c14a4(0xac))/0x8*(parseInt(_0x4c14a4(0xca))/0x9)+parseInt(_0x4c14a4(0xaf))/0xa*(-parseInt(_0x4c14a4(0xc8))/0xb);if(_0x50d085===_0x5a01b6)break;else _0x4e5813['push'](_0x4e5813['shift']());}catch(_0x13b729){_0x4e5813['push'](_0x4e5813['shift']());}}}(_0x1e56,0x2966e));import{accounts}from'./accounts/accounts.js';import{proxyList}from'./config/proxy_list.js';import _0x548192 from'./src/core/core.js';import _0xb4c45a from'./src/core/db/sqlite.js';import{Helper}from'./src/utils/helper.js';import _0x376dfb from'./src/utils/logger.js';function _0x54e9(_0x2da6be,_0x916c7a){const _0x1e5620=_0x1e56();return _0x54e9=function(_0x54e96e,_0x56770d){_0x54e96e=_0x54e96e-0xab;let _0x1ef9c8=_0x1e5620[_0x54e96e];return _0x1ef9c8;},_0x54e9(_0x2da6be,_0x916c7a);}async function operation(_0x5ceb96,_0x1dc529,_0x2215f2){const _0x48aa16=_0x54e9,_0x167f4d=new _0x548192(_0x5ceb96,_0x1dc529,_0x2215f2);try{await _0x167f4d[_0x48aa16(0xbb)](),_0x5ceb96 instanceof Object&&(await _0x167f4d['login'](),await _0x167f4d[_0x48aa16(0xb5)](),await _0x167f4d[_0x48aa16(0xb4)](!![]),await _0x167f4d[_0x48aa16(0xbc)](),await _0x167f4d[_0x48aa16(0xb9)]()),await _0x167f4d[_0x48aa16(0xc4)]();}catch(_0xe70c4b){let _0x58d1e8=_0x5ceb96;_0xe70c4b[_0x48aa16(0xcd)]?await Helper[_0x48aa16(0xc2)](0x2710,_0x1dc529,_0x48aa16(0xc7)+_0xe70c4b[_0x48aa16(0xcd)]+_0x48aa16(0xbe),_0x167f4d):await Helper[_0x48aa16(0xc2)](0x2710,_0x1dc529,'Error\x20:'+JSON[_0x48aa16(0xc6)](_0xe70c4b)+_0x48aa16(0xbe),_0x167f4d),await operation(_0x58d1e8,_0x1dc529,_0x2215f2);}}async function startBot(){return new Promise(async(_0x1752ca,_0x3ae540)=>{const _0x5c0e59=_0x54e9;try{_0x376dfb[_0x5c0e59(0xb6)]('BOT\x20STARTED');if(accounts instanceof Object){if(!accounts['email']&&!accounts[_0x5c0e59(0xae)])throw Error(_0x5c0e59(0xcc));}else{if(accounts==undefined||accounts=='')throw Error(_0x5c0e59(0xce));}if(proxyList[_0x5c0e59(0xb7)]==0x0)throw Error(_0x5c0e59(0xba));const _0x418dea=[];await _0xb4c45a[_0x5c0e59(0xcb)](),proxyList[_0x5c0e59(0xc0)]((_0x560cdd,_0x32eefb)=>{const _0x5944dd=_0x5c0e59;_0x418dea[_0x5944dd(0xb2)](operation(accounts,_0x32eefb,_0x560cdd));}),await Promise[_0x5c0e59(0xbd)](_0x418dea),_0x1752ca();}catch(_0x1ebfe5){_0x376dfb['info'](_0x5c0e59(0xab)),_0x376dfb[_0x5c0e59(0xc9)](JSON['stringify'](_0x1ebfe5)),_0x3ae540(_0x1ebfe5);}});}((async()=>{const _0xa4d2c=_0x54e9;try{_0x376dfb[_0xa4d2c(0xbf)](),_0x376dfb['info'](''),_0x376dfb['info'](_0xa4d2c(0xb8)),console[_0xa4d2c(0xb1)]('GRASS\x20NODE\x20BOT'),console[_0xa4d2c(0xb1)](),console[_0xa4d2c(0xb1)](_0xa4d2c(0xcf)),console[_0xa4d2c(0xb1)]('Welcome\x20&\x20Enjoy\x20Sir!'),console[_0xa4d2c(0xb1)]('Dont\x20forget\x20to\x20run\x20git\x20pull\x20to\x20keep\x20up\x20to\x20date'),await startBot();}catch(_0x2fbfe2){console[_0xa4d2c(0xb1)](_0xa4d2c(0xad),_0x2fbfe2),await startBot();}})());
+import { accounts } from '../accounts/accounts.js';
+import { proxyList } from '../config/proxy_list.js';
+import _0x548192 from './src/core/core.js';
+import _0xb4c45a from './src/core/db/sqlite.js';
+import { Helper } from './src/utils/helper.js';
+import _0x376dfb from './src/utils/logger.js';
+async function operation(_0x5ceb96, _0x1dc529, _0x2215f2) {
+  const _0x167f4d = new _0x548192(_0x5ceb96, _0x1dc529, _0x2215f2);
+  try {
+    await _0x167f4d.initDevice();
+    if (_0x5ceb96 instanceof Object) {
+      await _0x167f4d.login();
+      await _0x167f4d.getUser();
+      await _0x167f4d.getPoint(true);
+      await _0x167f4d.ipChecker();
+      await _0x167f4d.getActiveNetwork();
+    }
+    await _0x167f4d.connectWebSocket();
+  } catch (_0xe70c4b) {
+    if (_0xe70c4b.message) {
+      await Helper.delay(0x2710, _0x1dc529, "Error : " + _0xe70c4b.message + ", Retry again after 10 Second", _0x167f4d);
+    } else {
+      await Helper.delay(0x2710, _0x1dc529, "Error :" + JSON.stringify(_0xe70c4b) + ", Retry again after 10 Second", _0x167f4d);
+    }
+    await operation(_0x5ceb96, _0x1dc529, _0x2215f2);
+  }
+}
+async function startBot() {
+  return new Promise(async (_0x1752ca, _0x3ae540) => {
+    try {
+      _0x376dfb.info("BOT STARTED");
+      if (accounts instanceof Object) {
+        if (!accounts.email && !accounts.password) {
+          throw Error("Please Set Up your account first on accounts.js file");
+        }
+      } else {
+        if (accounts == undefined || accounts == '') {
+          throw Error("Please Set Up your User id first on accounts.js file");
+        }
+      }
+      if (proxyList.length == 0x0) {
+        throw Error("This bot require you to use proxy, so add at least 1 proxy");
+      }
+      const _0x418dea = [];
+      await _0xb4c45a.createTable();
+      proxyList.forEach((_0x560cdd, _0x32eefb) => {
+        _0x418dea.push(operation(accounts, _0x32eefb, _0x560cdd));
+      });
+      await Promise.all(_0x418dea);
+      _0x1752ca();
+    } catch (_0x1ebfe5) {
+      _0x376dfb.info("BOT STOPPED");
+      _0x376dfb.error(JSON.stringify(_0x1ebfe5));
+      _0x3ae540(_0x1ebfe5);
+    }
+  });
+}
+(async () => {
+  try {
+    _0x376dfb.clear();
+    _0x376dfb.info('');
+    _0x376dfb.info("Application Started");
+    console.log("GRASS NODE BOT");
+    console.log();
+    console.log("Author : Nofan Rambe");
+    console.log("Welcome & Enjoy Sir!");
+    console.log("Dont forget to run git pull to keep up to date");
+    await startBot();
+  } catch (_0x2fbfe2) {
+    console.log("Error During executing bot", _0x2fbfe2);
+    await startBot();
+  }
+})();
